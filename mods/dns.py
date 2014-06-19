@@ -1,4 +1,4 @@
-from jet9api import Jet9APIRequestHandler
+from jet9api.server import Jet9APIRequestHandler
 from datetime import date
 
 class DNSAction(Jet9APIRequestHandler):
